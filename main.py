@@ -10,7 +10,7 @@ from EnemyClass import Obstacle  # import Obstacles
 # ------- Functions --------------
 def display_score():  # Displays the score on the screen
     current_time = int(pygame.time.get_ticks() / 1000) - start_time  # calculate current time
-    score_surf = test_font.render(f'Score: {current_time}', False, (64, 64, 64))  # renders text onto screen
+    score_surf = test_font.render(f'Score: {current_time}', False, (255, 255, 255))  # renders text onto screen
     score_rect = score_surf.get_rect(center=(400, 50))  # ensures the center of image will exist at (400, 50)
     screen.blit(score_surf, score_rect)  # adds text to screen
     return current_time  # This value = score
