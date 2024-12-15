@@ -1,5 +1,5 @@
 # NinjaRunner
-First Pygame Project
+This was my First Pygame Project
 
 To play, 
 1) Clone the git repository url to your VSCODE ("https://github.com/KuyaJimbo/NinjaRunner.git")
